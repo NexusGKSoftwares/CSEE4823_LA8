@@ -1,0 +1,172 @@
+$date
+	Fri Nov  1 12:45:41 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module dual_clock_fifo_tb $end
+$var wire 1 ! full $end
+$var wire 1 " empty $end
+$var wire 8 # data_out [7:0] $end
+$var reg 1 $ clk1 $end
+$var reg 1 % clk2 $end
+$var reg 8 & data_in [7:0] $end
+$var reg 1 ' read_en $end
+$var reg 1 ( reset $end
+$var reg 1 ) write_en $end
+$scope module uut $end
+$var wire 1 $ clk1 $end
+$var wire 1 % clk2 $end
+$var wire 8 * data_in [7:0] $end
+$var wire 1 ' read_en $end
+$var wire 1 ( reset $end
+$var wire 1 ) write_en $end
+$var reg 5 + count [4:0] $end
+$var reg 8 , data_out [7:0] $end
+$var reg 1 " empty $end
+$var reg 1 ! full $end
+$var reg 4 - read_ptr [3:0] $end
+$var reg 4 . write_ptr [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 .
+b0 -
+bx ,
+b0 +
+b0 *
+0)
+1(
+0'
+b0 &
+0%
+0$
+bx #
+1"
+0!
+$end
+#30000
+1%
+#50000
+1$
+#60000
+0%
+#90000
+1%
+#100000
+0$
+0(
+#120000
+0%
+#150000
+1%
+1$
+#180000
+0%
+#200000
+0$
+b10101010 &
+b10101010 *
+1)
+#210000
+b1 +
+1%
+#240000
+0%
+#250000
+b10 +
+b1 .
+1$
+#270000
+b11 +
+1%
+#300000
+0%
+0$
+0)
+#330000
+1%
+#350000
+1$
+#360000
+0%
+#390000
+1%
+#400000
+0$
+#420000
+0%
+#450000
+1%
+1$
+#480000
+0%
+#500000
+0$
+1'
+#510000
+1%
+#540000
+0%
+#550000
+1$
+#570000
+1%
+#600000
+0%
+0$
+0'
+#630000
+1%
+#650000
+1$
+#660000
+0%
+#690000
+1%
+#700000
+0$
+#720000
+0%
+#750000
+1%
+1$
+#780000
+0%
+#800000
+0$
+#810000
+1%
+#840000
+0%
+#850000
+1$
+#870000
+1%
+#900000
+0%
+0$
+#930000
+1%
+#950000
+1$
+#960000
+0%
+#990000
+1%
+#1000000
+0$
+#1020000
+0%
+#1050000
+1%
+1$
+#1080000
+0%
+#1100000
+0$
